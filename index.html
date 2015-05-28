@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/tachyons.min.css">
+<script src="js/simple-slideshow.js" type="text/javascript" charset="utf-8" async defer></script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple JavaScript Slider</title>
+</head>
+
+<body>
+    <header id="header" class="pam">
+        <h1 class="tc mas f3 f2-ns">Simple JavaScript Slider</h1>
+    </header>
+    <div class="slideshow-container pal w-100 w500p-ns center">
+        <div class="slide-deck mbl">
+            <div class="slide active"><img class="w-100 br3" src="img/img1.jpg" alt="Image 1"></div>
+            <div class="slide dn"><img class="w-100 br3" src="img/img2.jpg" alt="Image 2"></div>
+            <div class="slide dn"><img class="w-100 br3" src="img/img3.jpg" alt="Image 3"></div>
+        </div>
+        <div class="slide-controls">
+            <button class="btn btn--blue fl" type="" onclick="toggleSlides('left');">Left</button>
+            <button class="btn btn--blue fr" type="" onclick="toggleSlides('right');">Right</button>
+        </div>
+    </div>
+    <footer class="bt b--near-white mtl pam tc">
+        <p>
+            A simple slider built with vanilla JavaScript.
+            <br>Photos courtesy of <a href="http://stocksnap.io" class="link underline-hover" title="Stocksnap.io" target="_blank">Stocksnap</a>.
+            <br>Styles courtesy of <a href="http://tachyons.io/" class="link underline-hover" title="Tachyons.io" target="_blank">Tachyons</a>.
+        </p>
+    </footer>
+</body>
+
+</html>
