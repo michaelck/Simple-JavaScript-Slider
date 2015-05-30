@@ -6,10 +6,9 @@ function toggleSlides(btn, direction) {
     var slides = slideshowId.getElementsByClassName("slide");
     var totalSlides = slides.length - 1;
     var activeSlide;
-    var i;
     
     //Loop through slides and identify the active slide
-    for (i = 0; i < slides.length; i++) {
+    for (var i = 0; i < slides.length; i++) {
 
         if (slides[i].className === "slide active") {
             activeSlide = i;
